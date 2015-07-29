@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to create a optimized WordPress website 
+title: How to create an optimized WordPress website 
 description: Steps for creating an optimized WordPress website 
 tagline: Optimized WordPress website creation
 image: /assets/media/wordpress-bg-medblue.png
