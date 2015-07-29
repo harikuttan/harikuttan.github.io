@@ -26,10 +26,15 @@
 $(document).ready(function(){
 if(window.location.href=="http://hareendranath.com/")
 {
-  alert($( window ).width());
+  
 $("#sidebar").css({width:'100%'});
 $("#btnblog").click(function(){
-$("#sidebar").animate({width:'33.3333%'},'slow');
+  if($( window ).width()<700){
+    document.getElementById('sidebar').style.display = 'none';
+  }else{
+    $("#sidebar").animate({width:'33.3333%'},'slow');
+  }
+
 });
 }
 });
