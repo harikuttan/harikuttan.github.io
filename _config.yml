@@ -13,7 +13,7 @@ paginate_path: "page/:num"
 #
 categories_path : categories.html
 tags_path : tags.html
-
+about_path : about.html
 BASE_PATH : http://hareendranath.com/
 
 
