@@ -73,8 +73,7 @@ the_post_thumbnail('full');            // Original image resolution (unmodified)
 
 the_post_thumbnail( array(100,100) );  // Other resolutions
 {% endhighlight %}
-Which will set a expiry for your cached files.
-You can test its working in google page speed insights.
+
 
 
 
