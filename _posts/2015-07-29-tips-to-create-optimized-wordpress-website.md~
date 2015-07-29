@@ -15,7 +15,7 @@ One can create a good looking website that can impress people within a short tim
  
  Below are some tips that may be followed for creating an optimized WordPress website 
  w
-<h3>1.Avoid Premium Themes</h3>
+<h3>1. Avoid Premium Themes</h3>
 Even though premium themes are helpful for creating websites in a short time it has its own disadvantages. Most of the themes come up with a lot of features that we do not use in our website because each time while the site loads the themes will be loading the dependencies and customizing premium themes which can cause some validation errors and inturn will slow down your website. There may be a lot of plugins included for helping the users but it may also be a factor for slowing doen the website. 
  
 <h4>What you can do?</h4>
@@ -33,7 +33,7 @@ Since we are using bootsrap you dont have to be worried about responsiveness of 
 There are a lot of optimization plugins available for WordPress. I would recommend to go for autoptimize as it will minify and compress your styles and scripts and will move the scripts to the footer, styles to header. Also it will minify the HTML code itself making your page really light.
  
  
-<h3>3.Use google page speed insights</h3> 
+<h3>3. Use google page speed insights</h3> 
  
 Use google page speed insights 
 {% highlight ruby %}
@@ -42,7 +42,7 @@ Use google page speed insights
  Google page speed insight is a good friend for finding the reasons that hinders your website speed. It also provides instruction for fixing the issues.
 
 
-<h3>4.Use this code in the .htaccess file</h3> 
+<h3>4. Use this code in the .htaccess file</h3> 
 
 {% highlight ruby %}
 	ExpiresActive On
@@ -60,7 +60,9 @@ Use google page speed insights
 Which will set a expiry for your cached files.
 You can test its working in google page speed insights.
 
-<h3>5.Optimize your images</h3>
+<h3>5. Optimize your images</h3>
+
+Optimize all the images in your website use this code in your functions.php for generating the images for your required size 
 
 {% highlight ruby %}
 // without parameter -> Post Thumbnail (as set by theme using set_post_thumbnail_size())
@@ -73,8 +75,7 @@ the_post_thumbnail('full');            // Original image resolution (unmodified)
 
 the_post_thumbnail( array(100,100) );  // Other resolutions
 {% endhighlight %}
-Which will set a expiry for your cached files.
-You can test its working in google page speed insights.
+
 
 
 

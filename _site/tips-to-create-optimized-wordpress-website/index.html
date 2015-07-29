@@ -186,7 +186,7 @@ One can create a good looking website that can impress people within a short tim
 
 <p>Below are some tips that may be followed for creating an optimized WordPress website 
  w</p>
-<h3>1.Avoid Premium Themes</h3>
+<h3>1. Avoid Premium Themes</h3>
 <p>Even though premium themes are helpful for creating websites in a short time it has its own disadvantages. Most of the themes come up with a lot of features that we do not use in our website because each time while the site loads the themes will be loading the dependencies and customizing premium themes which can cause some validation errors and inturn will slow down your website. There may be a lot of plugins included for helping the users but it may also be a factor for slowing doen the website.</p>
 
 <h4>What you can do?</h4>
@@ -203,7 +203,7 @@ Since we are using bootsrap you dont have to be worried about responsiveness of 
 
 <p>There are a lot of optimization plugins available for WordPress. I would recommend to go for autoptimize as it will minify and compress your styles and scripts and will move the scripts to the footer, styles to header. Also it will minify the HTML code itself making your page really light.</p>
 
-<h3>3.Use google page speed insights</h3>
+<h3>3. Use google page speed insights</h3>
 
 <p>Use google page speed insights</p>
 
@@ -211,7 +211,7 @@ Since we are using bootsrap you dont have to be worried about responsiveness of 
 
 <p>Google page speed insight is a good friend for finding the reasons that hinders your website speed. It also provides instruction for fixing the issues.</p>
 
-<h3>4.Use this code in the .htaccess file</h3>
+<h3>4. Use this code in the .htaccess file</h3>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">ExpiresActive</span> <span class="no">On</span>
 	<span class="no">ExpiresDefault</span> <span class="s2">&quot;access plus 1 seconds&quot;</span>
@@ -227,7 +227,9 @@ Since we are using bootsrap you dont have to be worried about responsiveness of 
 <p>Which will set a expiry for your cached files.
 You can test its working in google page speed insights.</p>
 
-<h3>5.Optimize your images</h3>
+<h3>5. Optimize your images</h3>
+
+<p>Optimize all the images in your website use this code in your functions.php for generating the images for your required size</p>
 
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">//</span> <span class="n">without</span> <span class="n">parameter</span> <span class="o">-&gt;</span> <span class="no">Post</span> <span class="no">Thumbnail</span> <span class="p">(</span><span class="n">as</span> <span class="n">set</span> <span class="n">by</span> <span class="n">theme</span> <span class="n">using</span> <span class="n">set_post_thumbnail_size</span><span class="p">())</span>
 <span class="n">the_post_thumbnail</span><span class="p">();</span>
