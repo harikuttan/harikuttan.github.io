@@ -28,6 +28,7 @@
 $(document).ready(function(){
 if(window.location.href=="http://hareendranath.com/")
 {
+  alert($( window ).width());
 $("#sidebar").css({width:'100%'});
 $("#btnblog").click(function(){
 $("#sidebar").animate({width:'33.3333%'},'slow');
@@ -107,7 +108,7 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
    </ul>
  </div>
 
-<div class="col-sm-4 sidebar hidden-xs" id="sidebar">
+<div class="col-sm-4 sidebar" id="sidebar">
 		{% include sidebar.html %}
 	</div>
 
