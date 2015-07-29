@@ -24,27 +24,20 @@
 	
 <script type="text/javascript">
 $(document).ready(function(){
-  if(window.location.href=="http://hareendranath.com/")
-  {
-    $("#sidebar").css({width:'100%'});
-    $("#btnblog").click(function(){
-      if($( window ).width() < 700){
-        $("#sidebar").addClass('hidden-xs');  
-        $("#navbar").addClass('visible-xs');  
-        $("#navbar").removeClass('hidden-xs'); 
-      }else{
-        $("#sidebar").animate({width:'33.3333%'},'slow');
-      }
-    
-    });
-  }
+if(window.location.href=="http://hareendranath.com/")
+{
+$("#sidebar").css({width:'100%'});
+$("#btnblog").click(function(){
+$("#sidebar").animate({width:'33.3333%'},'slow');
+});
+}
 });
 	
 </script>
 	</head>
 <body>
 
-<nav class="navbar navbar-default hidden-xs" role="navigation">
+<nav class="navbar navbar-default visible-xs" role="navigation">
 
 
  <div class="navbar-header">
@@ -112,7 +105,7 @@ $(document).ready(function(){
    </ul>
  </div>
 
-<div class="col-sm-4 sidebar" id="sidebar">
+<div class="col-sm-4 sidebar hidden-xs" id="sidebar">
 		<! -- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="http://hareendranath.com/">
