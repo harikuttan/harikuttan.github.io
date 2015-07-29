@@ -21,22 +21,8 @@
 
 <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.js"></script>
-	
-<script type="text/javascript">
-$(document).ready(function(){
-if(window.location.href=="http://hareendranath.com/")
-{
-$("#sidebar").css({width:'100%'});
-$("#btnblog").click(function(){
-$("#sidebar").animate({width:'33.3333%'},'slow');
-});
-}
-});
-	
-</script>
-	</head>
+
+</head>
 <body>
 
 <nav class="navbar navbar-default visible-xs" role="navigation">
@@ -74,7 +60,7 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
 
      
       <a class="navbar-brand" href="http://hareendranath.com/">
-        <img src="https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/hareendranath.png" class="img-circle" style="height:35px;width:35px"/>
+        <img src="https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/assets/media/hareendranath-min.png" class="img-circle" style="height:35px;width:35px"/>
         Hareendranath
       </a>
     </div>
@@ -111,7 +97,7 @@ $("#sidebar").animate({width:'33.3333%'},'slow');
 		<! -- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="http://hareendranath.com/">
-		<img src="https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/hareendranath.png" class="img-circle" style="border-radius: 50%;
+		<img src="https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/assets/media/hareendranath-min.png" class="img-circle" style="border-radius: 50%;
 border: 3px solid #FFF; height:150px;width:150px" />
 	</a>
 	<h3 class="title">
@@ -307,7 +293,7 @@ You can test its working in google page speed insights.</p>
       </section>
 
       <section class="col-sm-6 author">
-        <img src="https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/hareendranath.png" style="height:100px;width:100px;" class="img-rounded author-image" />
+        <img src="https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/assets/media/hareendranath-min.png" style="height:100px;width:100px;" class="img-rounded author-image" />
         <h4 class="section-title author-name"><b>Hareendranath</b><br/><p style="color:#888;font-size:13px;">Web Developer</p></h4>
         <p class="author-bio">A web developer in PHP by career</p>
       </section>
@@ -353,9 +339,22 @@ You can test its working in google page speed insights.</p>
  </p>
  </div>
   </footer>
-</div>
-
+</div>    
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+  
 <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.href=="http://hareendranath.com/")
+      {
+        $("#sidebar").css({width:'100%'});
+        $("#btnblog").click(function(){
+        $("#sidebar").animate({width:'33.3333%'},'slow');
+        });
+      }
+    });
+  
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'hareendranath'; // required: replace example with your forum shortname
 
@@ -367,6 +366,4 @@ You can test its working in google page speed insights.</p>
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
     </script>
-    
-</body>
 </html>
