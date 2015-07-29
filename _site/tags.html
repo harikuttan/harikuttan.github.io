@@ -31,7 +31,7 @@ $(document).ready(function(){
       if($( window ).width() < 700){
         $("#sidebar").addClass('hidden-xs');  
         $("#navbar").addClass('visible-xs');  
-        
+        $("#navbar").removeClass('hidden-xs'); 
       }else{
         $("#sidebar").animate({width:'33.3333%'},'slow');
       }
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	</head>
 <body>
 
-<nav class="navbar navbar-default " role="navigation">
+<nav class="navbar navbar-default hidden-xs" role="navigation">
 
 
  <div class="navbar-header">
