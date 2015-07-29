@@ -16,7 +16,7 @@ One can create a good looking website that can impress people within a short tim
  Below are some tips that may be followed for creating an optimized wordpress website 
  
 <h3>1.Avoid Premium Themes</h3>
-Even though premium themes are helpful for creating websites in a shorttime it has its own advantages. Most of the themes come up with a lot of features that we do not use in our website because each time while the site loads the themes will be loading the dependencies and customizing premium themes which can cause some validation errors and inturn will slow down your website. There may be a lot of plugins included for helping the users but it may also be a factor for slowing doen the website. 
+Even though premium themes are helpful for creating websites in a short time it has its own disadvantages. Most of the themes come up with a lot of features that we do not use in our website because each time while the site loads the themes will be loading the dependencies and customizing premium themes which can cause some validation errors and inturn will slow down your website. There may be a lot of plugins included for helping the users but it may also be a factor for slowing doen the website. 
  
 <h4>What you can do?</h4>
  
@@ -28,9 +28,9 @@ You can start building your website from a bootstrap starter theme which is free
 _tk is a best option for building a custom theme. It is bundled with all the bootstrap elements which can help you learn the basics of bootstrap from their website easily and start building your theme. While doing this there wont be any unwanted features or plugins which will slow your website to slow down.
 Since we are using bootsrap you dont have to be worried about responsiveness of the website.
  
-<h3>2. Use An Optimize plugin</h3> 
+<h3>2. Use an Optimization plugin</h3> 
   
-There are a lot of optimization plugins available for wordpress. I would recommend to go for autoptimize as it will minify and compress your styles and scripts and will move the scripts to the footer, styles to header. Also it will minify the HTML code itself making your page really light.
+There are a lot of optimization plugins available for WordPress. I would recommend to go for autoptimize as it will minify and compress your styles and scripts and will move the scripts to the footer, styles to header. Also it will minify the HTML code itself making your page really light.
  
  
 <h3>3.Use google page speed insights</h3> 
