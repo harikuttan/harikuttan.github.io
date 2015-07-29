@@ -28,15 +28,9 @@
 $(document).ready(function(){
 if(window.location.href=="http://hareendranath.com/")
 {
-  
 $("#sidebar").css({width:'100%'});
 $("#btnblog").click(function(){
-  if($( window ).width()<700){
-    document.getElementById('sidebar').style.display = 'none';
-  }else{
-    $("#sidebar").animate({width:'33.3333%'},'slow');
-  }
-
+$("#sidebar").animate({width:'33.3333%'},'slow');
 });
 }
 });
@@ -113,7 +107,7 @@ $("#btnblog").click(function(){
    </ul>
  </div>
 
-<div class="col-sm-4 sidebar" id="sidebar">
+<div class="col-sm-4 sidebar hidden-xs" id="sidebar">
 		{% include sidebar.html %}
 	</div>
 
