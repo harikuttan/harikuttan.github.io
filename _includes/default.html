@@ -108,8 +108,20 @@
  </div>
   </footer>
 </div>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+  
 <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.href=="http://hareendranath.com/")
+      {
+        $("#sidebar").css({width:'100%'});
+        $("#btnblog").click(function(){
+        $("#sidebar").animate({width:'33.3333%'},'slow');
+        });
+      }
+    });
+  
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'hareendranath'; // required: replace example with your forum shortname
 
@@ -123,19 +135,5 @@
     </script>
     
 </body>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
-  
-<script type="text/javascript">
-$(document).ready(function(){
-if(window.location.href=="http://hareendranath.com/")
-{
-$("#sidebar").css({width:'100%'});
-$("#btnblog").click(function(){
-$("#sidebar").animate({width:'33.3333%'},'slow');
-});
-}
-});
-  
-</script>
+
 </html>
