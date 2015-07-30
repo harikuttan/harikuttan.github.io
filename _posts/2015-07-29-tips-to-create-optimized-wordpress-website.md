@@ -14,7 +14,7 @@ WordPress has become one of the most popular Content Management System because o
 One can create a good looking website that can impress people within a short time using WordPress and a premium theme, even though you are not prominent with WordPress. Minimal Page loading time is very much important for any website as is an important part of user experience also for SEO.
  
  Below are some tips that may be followed for creating an optimized WordPress website 
- w
+ 
 <h3>1. Avoid Premium Themes</h3>
 Even though premium themes are helpful for creating websites in a short time it has its own disadvantages. Most of the themes come up with a lot of features that we do not use in our website because each time while the site loads the themes will be loading the dependencies and customizing premium themes which can cause some validation errors and inturn will slow down your website. There may be a lot of plugins included for helping the users but it may also be a factor for slowing doen the website. 
  
