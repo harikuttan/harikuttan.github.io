@@ -13,7 +13,7 @@ paginate_path: "page/:num"
 #
 categories_path : categories.html
 tags_path : tags.html
-
+about_path : about.html
 BASE_PATH : http://hareendranath.com/
 
 
@@ -25,8 +25,8 @@ author:
   role: Web Developer
   email: hareendranath777@gmail.com
   github: harikuttan
-  twitter: hareendranath_
+  twitter: hareendranath6
   facebook: hareendranath
   googleplus: +HareendranathPhere
-  bio: "A web developer in PHP by career . Keen to design and security, I truly believes in the magic of coding to create a clean, structured, and user-friendly websites. "
-  uno-dbyll: https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/hareendranath.png
+  bio: "A web developer in PHP by career"
+  uno-dbyll: https://raw.githubusercontent.com/harikuttan/harikuttan.github.io/master/assets/media/hareendranath-min.png
